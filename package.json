@@ -1,0 +1,23 @@
+{
+  "name": "backblaze",
+  "version": "1.0.0",
+  "description": "Backblaze B2",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samgranger/backblaze.git"
+  },
+  "keywords": [
+    "backblaze",
+    "b2"
+  ],
+  "author": "Sam Granger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samgranger/backblaze/issues"
+  },
+  "homepage": "https://github.com/samgranger/backblaze#readme"
+}
