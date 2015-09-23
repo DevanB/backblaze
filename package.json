@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/samgranger/backblaze/issues"
   },
-  "homepage": "https://github.com/samgranger/backblaze#readme"
+  "homepage": "https://github.com/samgranger/backblaze#readme",
+  "dependencies": {
+    "curlrequest": "^0.5.3"
+  }
 }
