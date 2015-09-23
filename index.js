@@ -1,5 +1,6 @@
 /*
  * Backblaze B2
+ * API v1
  */
 
 var curl = require('curlrequest');
@@ -10,7 +11,6 @@ var B2 = function(accountId, applicationKey, options) {
 	
 	options = options || function(){};
 };
-
 
 B2.prototype.authorizeAccount = function() {
     console.log(this._accountId + ':' + this._applicationKey);
@@ -24,5 +24,32 @@ B2.prototype.authorizeAccount = function() {
     });
 };
 
+B2.prototype.createBucket = function() {
+    
+};
+
+B2.prototype.deleteBucket = function() {
+
+};
+
+B2.prototype.deleteFileVersion = function() {
+
+};
+
+B2.prototype.downloadFileById = function() {
+
+};
+
+B2.prototype.downloadFileByName = function() {
+
+};
+
+B2.prototype.getFileInfo = function() {
+
+};
+
+B2.prototype.getUploadUrl = function() {
+
+};
 
 exports.B2 = B2;
